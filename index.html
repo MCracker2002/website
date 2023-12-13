@@ -1,4 +1,7 @@
 <!doctype html>
+
+
+
 <html>
 <head>
   <meta charset='UTF-8'>
@@ -55,17 +58,26 @@
 
 <template>
   <div class='hello-message'>
-    <h1>Hi there! Welcome TO My Profile</h1>
-    <h2>To Know More About Me, HOLD DOWN the space key for 3 seconds.</h2>
-    <h3>(or, on mobile, tap the image!)</h3>
+    <h1>Hi there!</h1>
+    <h2>To get started, HOLD DOWN the space key for 3 seconds.</h2>
+    <h3>(or, on mobile, tap the cat!)</h3>
 
-    <img src='/Prayogī.jpg' alt='ProMCracker' />
+    <img src='/Prayogī.jpg' alt='Prapatti' />
   </div>
   <div class='logout-messages'></div>
 </template>
 
 <script src='/index.js'></script>
 
+<script async src='https://www.googletagmanager.com/gtag/js?id=UA-3898076-24'></script>
+<script>
+  window.dataLayer = window.dataLayer || []
+  function gtag () {
+    window.dataLayer.push(arguments)
+  }
+  gtag('js', new Date())
+  gtag('config', 'UA-3898076-24')
+</script>
 
 </body>
 </html>
